@@ -5,6 +5,7 @@ import LinkList from './LinkList';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Login from './Login';
 import Search from './Search';
+import Footer from './Footer';
 
 const App = () => (
   <div className="center w85">
@@ -32,6 +33,7 @@ const App = () => (
         />
       </Switch>
     </div>
+    <Footer />
   </div>
 );
 

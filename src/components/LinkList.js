@@ -166,6 +166,9 @@ const LinkList = () => {
             }}>
               Previous
             </div>
+            <div>
+              {page}&nbsp;
+            </div>
             <div className="pointer" onClick={() => {
               if (page < data.feed.count / LINKS_PER_PAGE)
                 history.push(`/new/${page + 1}`)
